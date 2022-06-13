@@ -1,7 +1,7 @@
-import React from "react";
-import "./index.css";
-import Header from "./components/Header";
-import Form from "./components/Form";
+import React from 'react'
+import './index.css'
+import Header from './components/Header'
+import Form from './components/Form'
 
 export default function App() {
   return (
@@ -9,4 +9,5 @@ export default function App() {
       <Header />
       <Form />
     </div>
-  )}
+  )
+}
